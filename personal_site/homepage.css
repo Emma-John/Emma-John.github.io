@@ -1,16 +1,15 @@
 
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&family=Dosis:wght@300&display=swap');
 
 main{
     display: grid;
     max-width: 1600px;
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
-    grid-template-rows: 20%, 20%, 20%, 20%, 20%, 20%;
 }
 
 body, main{
     background-color:rgb(245, 241, 241);
-    font-family:'Dancing+script';
-    src: url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&family=Dosis:wght@300&display=swap');
+    font-family:'Dancing Script';
 }
 
 
@@ -21,6 +20,7 @@ body, main{
     display:block;
     display: flex;
     justify-content: space-around;
+    grid-column: 1/7;
     }
     
 nav a{
@@ -42,10 +42,9 @@ nav a:hover {
   /* Slideshow container */
   .slideshow-container {
     max-width: 1000px;
-    position: relative;
-    margin: auto;
     grid-column: 1/7;
-  }
+    justify-self: center;
+    }
   
   /* Hide the images by default */
   .mySlides {
@@ -144,6 +143,7 @@ nav a:hover {
 h1, p{
     text-align: center;
     justify-items: center;
+    grid-row:3/4;
 
 }
 
@@ -152,7 +152,7 @@ h2{
     grid-row: 3/4;
     padding: 2em;
     text-align: center;
-    margin-top: 50px;
+    margin-top: 150px;
     margin-bottom: 0px;
 }
 
@@ -163,7 +163,7 @@ h2{
 #quote{
     grid-row: 3/4;
     grid-column: 2/6;
-    margin-bottom: 15px;
+    padding: 10%
 }
 
 
@@ -193,48 +193,44 @@ h2{
     display: block;
     width: 10em;
     margin:auto;
+    
 }
 
 .latin{
     display: block;
-    width: 20em;
+    width: 15em;
     margin:auto;
+    grid-column: 2/4;
 }
 
 .swing{
     display: block;
-    width: 20em;
+    width: 15em;
     margin:auto;
 }
 
 .bbutton{
     background-color: #8BBEB2;
     font-size: 25px;
-    padding: 10px 24px;
     transition-duration: 0.4s;
-    grid-column: 6/7;
-    margin-top: 30%;
+    padding: 20px;
 }
 
 .lbutton{
     background-color: #b33f3f;
     font-size: 25px;
-    padding: 10px 24px;
     transition-duration: 0.4s;
-    width: 5em;
-    margin:auto;
-    margin-top:3%;
+    margin-left: 150px;
+    padding: 20px;
 }
 
 .sbutton{
     background-color: #000000;
     font-size: 25px;
     color: white;
-    padding: 10px 24px;
     transition-duration: 0.4s;
-    width: 5em;
     margin:auto;
-    margin-top:16%;
+    padding: 20px;
 }
 
 .bbutton:hover {
@@ -251,9 +247,13 @@ h2{
 }
 
 footer{
-    background-color:#396E94;
+  background-color:#396E94;
 }
 
+#social{
+  display: block;
+  grid-column: 6/7;
+}
 .twit {
     width: 5em;
     border-radius: 25px;
