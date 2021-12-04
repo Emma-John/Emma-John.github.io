@@ -284,11 +284,6 @@ footer{
   grid-template-rows: 5% 25% 25% 25% 20%;
 }
 
-#Bmusic{
-  display: block;
-  grid-row:5/6;
-  grid-column: 2/6;
-}
 
 #Shoes{
   display: block;
