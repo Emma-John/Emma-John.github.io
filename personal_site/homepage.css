@@ -280,8 +280,67 @@ footer{
 
 /*--------------------------------------------------- Ballroom Page-----------------------------------------------*/
 
+#Bmain{
+  grid-template-rows: 5% 25% 25% 25% 20%;
+}
+
+#Bmusic{
+  display: block;
+  grid-row:5/6;
+  grid-column: 2/6;
+}
+
+#Shoes{
+  display: block;
+  grid-column: 1/7;
+}
+
+.Shoe_title{
+  grid-row: 1/2;
+  grid-column: 2/5;
+  margin-bottom: 0;
+}
+
+.music_title{
+ grid-column: 5/6;
+}
+
+
 .Ballroom_page_logo{
   width: 5em;
   margin-top:-12%;
   margin-left: 50px;
+}
+
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  max-width: 300px;
+  margin: auto;
+  text-align: center;
+  font-family: arial;
+  display:inline-block;
+  grid-column: 1/7;
+  margin-left: 75px;
+  margin-top: 50px;
+}
+
+.price {
+  color: grey;
+  font-size: 22px;
+}
+
+.card button {
+  border: none;
+  outline: 0;
+  padding: 12px;
+  color: white;
+  background-color: #000;
+  text-align: center;
+  cursor: pointer;
+  width: 100%;
+  font-size: 18px;
+}
+
+.card button:hover {
+  opacity: 0.7;
 }
