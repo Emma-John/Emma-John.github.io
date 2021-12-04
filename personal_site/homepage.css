@@ -21,6 +21,7 @@ body, main{
     display: flex;
     justify-content: space-around;
     grid-column: 1/7;
+    font-size: 20px;
     }
     
 nav a{
@@ -140,6 +141,11 @@ nav a:hover {
     margin-top: -50px;
 }
 
+h1{
+  font-size: 50px;
+  margin-bottom: -5;
+}
+
 h1, p{
     text-align: center;
     justify-items: center;
@@ -246,8 +252,10 @@ h2{
 
 }
 
+/* Copy from here*/
+
 footer{
-  background-color:#396E94;
+  background-color:#83b5da;
 }
 
 #social{
@@ -267,4 +275,13 @@ footer{
 .insta{
     width: 5em;
     border-radius: 25px;
+}
+
+
+/*--------------------------------------------------- Ballroom Page-----------------------------------------------*/
+
+.Ballroom_page_logo{
+  width: 5em;
+  margin-top:-12%;
+  margin-left: 50px;
 }
