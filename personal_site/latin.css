@@ -1,0 +1,91 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&family=Dosis:wght@300&display=swap');
+
+main{
+    display: grid;
+    max-width: 1600px;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+    margin-bottom:75px;
+}
+
+body, main{
+    background-color:rgb(245, 241, 241);
+    font-family:'Dancing Script';
+}
+
+
+#nav{
+    background-color:#18314F;
+    color: #9fb2be;
+    text-align: center;
+    display:block;
+    display: flex;
+    justify-content: space-around;
+    grid-column: 1/7;
+    font-size: 20px;
+    }
+    
+nav a{
+    text-align: center;
+    color:#9fb2be;
+    text-decoration: none;
+    padding: 15px;
+    display: block;
+
+}
+
+nav a:hover {
+    background-color: #8BBEB2;
+    color: white;
+  }
+
+.latin_page_logo{
+    width: 1px;
+}
+
+
+
+/* Copy from here */
+
+  footer{
+    background-color:#9fb2be;
+    color: #18314F;
+  }
+  
+  footer h3{
+    padding-top:10px;
+  }
+  
+  footer a{
+    grid-column: 1/7;
+    text-decoration: none;
+    padding-bottom: -30px;
+    padding: 5px;
+    color:#18314F;
+    padding: 15px;
+  }
+  
+  #links{
+    margin-left:32em;
+    padding-right: 15px;
+  }
+  
+  #social{
+    display: block;
+    /* margin-left: 30em; */
+    text-decoration:none;
+  
+  }
+  .twit {
+      width: 3em;
+      border-radius: 25px;
+  }
+  
+  .fb{
+      width: 3em;
+      border-radius: 25px;
+  }
+  
+  .insta{
+      width: 3em;
+      border-radius: 25px;
+  }

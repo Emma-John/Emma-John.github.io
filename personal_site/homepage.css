@@ -5,6 +5,7 @@ main{
     display: grid;
     max-width: 1600px;
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+    margin-bottom:75px;
 }
 
 body, main{
@@ -197,8 +198,10 @@ h2{
 
 .ball{
     display: block;
-    width: 10em;
+    width: 7em;
     margin:auto;
+    margin-top: 15px;
+    padding-bottom: 45px;
     
 }
 
@@ -207,27 +210,34 @@ h2{
     width: 15em;
     margin:auto;
     grid-column: 2/4;
+    padding-bottom:35px;
 }
 
 .swing{
     display: block;
     width: 15em;
     margin:auto;
+    margin-top: 20px;
+    padding-bottom: 45px;
 }
 
 .bbutton{
     background-color: #8BBEB2;
     font-size: 25px;
     transition-duration: 0.4s;
-    padding: 20px;
+    padding: 10px;
+    text-decoration: none;
+    color:#18314F;
 }
 
 .lbutton{
     background-color: #b33f3f;
     font-size: 25px;
     transition-duration: 0.4s;
-    margin-left: 150px;
-    padding: 20px;
+    margin-left: 75px;
+    padding: 10px;
+    text-decoration: none;
+    color: black;
 }
 
 .sbutton{
@@ -235,8 +245,9 @@ h2{
     font-size: 25px;
     color: white;
     transition-duration: 0.4s;
-    margin:auto;
-    padding: 20px;
+    margin-left: 80px;
+    padding: 10px;
+    text-decoration: none;
 }
 
 .bbutton:hover {
@@ -259,30 +270,42 @@ footer{
   color: #18314F;
 }
 
+footer h3{
+  padding-top:10px;
+}
+
 footer a{
+  grid-column: 1/7;
   text-decoration: none;
   padding-bottom: -30px;
   padding: 5px;
+  color:#18314F;
+  padding: 15px;
+}
+
+#links{
+  margin-left:32em;
+  padding-right: 15px;
 }
 
 #social{
   display: block;
-  margin-left: 30em;
-  margin-bottom:-20px;
+  /* margin-left: 30em; */
   text-decoration:none;
+
 }
 .twit {
-    width: 5em;
+    width: 3em;
     border-radius: 25px;
 }
 
 .fb{
-    width: 5em;
+    width: 3em;
     border-radius: 25px;
 }
 
 .insta{
-    width: 5em;
+    width: 3em;
     border-radius: 25px;
 }
 
