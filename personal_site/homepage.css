@@ -1,6 +1,9 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&family=Dosis:wght@300&display=swap');
 
+@import url('https://fonts.googleapis.com/css2?family=Merienda&display=swap');
+
+
 main{
     display: grid;
     max-width: 1600px;
@@ -31,6 +34,8 @@ nav a{
     text-decoration: none;
     padding: 15px;
     display: block;
+    font-family: "Dosis";
+    font-weight:600;
 
 }
 
@@ -159,8 +164,9 @@ h2{
     grid-row: 3/4;
     padding: 2em;
     text-align: center;
-    margin-top: 150px;
+    margin-top: 250px;
     margin-bottom: 0px;
+    text-decoration: underline;
 }
 
 #header{
@@ -169,8 +175,12 @@ h2{
 
 #quote{
     grid-row: 3/4;
-    grid-column: 2/6;
-    padding: 10%
+    grid-column: 1/7;
+    padding: 10%;
+    font-family:"Dosis";
+    margin:auto;
+    line-height: 50px;
+
 }
 
 
@@ -314,7 +324,36 @@ footer a{
 
 #Bmain{
   grid-template-rows: 5% 25% 25% 25% 20%;
+  border:2px solid #18314F;
+  margin-top: 50px;
 }
+
+#ball_nav{
+  background-color:#929292;
+  text-align: center;
+  display:block;
+  display: flex;
+  justify-content: space-around;
+  grid-column: 1/7;
+  font-size: 20px;
+  }
+  
+#ball_nav a{
+  text-align: center;
+  color:#1b2535;
+  text-decoration: none;
+  padding: 15px;
+  display: block;
+  font-family: "Dancing Script";
+  font-weight:600;
+
+}
+
+#ball_nav a:hover {
+  background-color: #8BBEB2;
+  color: white;
+}
+
 
 
 #Shoes{
@@ -371,3 +410,97 @@ footer a{
 .card button:hover {
   opacity: 0.7;
 }
+
+
+/*_____________________________Latin___Page____________________________*/
+
+.Latin_page_logo{
+  width:10em;
+  margin-top:-150px;
+}
+
+#latin_nav{
+  background-color:#662727;
+  color: #9fb2be;
+  text-align: center;
+  display:block;
+  display: flex;
+  justify-content: space-around;
+  grid-column: 1/7;
+  font-size: 20px;
+  }
+  
+#latin_nav a{
+  text-align: center;
+  color:#acb6bd;
+  text-decoration: none;
+  padding: 15px;
+  display: block;
+  font-family: "Merienda";
+
+}
+
+#latin_nav a:hover {
+  background-color: #505050;
+  color: white;
+}
+
+#Lmain{
+  grid-template-rows: 5% 25% 25% 25% 20%;
+  margin-top: 50px;
+}
+
+.LShoe_title{
+  grid-row: 1/2;
+  grid-column: 3/5;
+  margin-bottom: 0;
+  font-family: "Merienda";
+}
+
+
+#Lfooter{
+  background-color:#acb6bd;
+  color: #662727;
+}
+
+#Lfooter h3{
+  padding-top:10px;
+  font-family: "Merienda"
+}
+
+#Lfooter a{
+  grid-column: 1/7;
+  text-decoration: none;
+  padding-bottom: -30px;
+  padding: 5px;
+  color:#662727;
+  padding: 15px;
+}
+
+#Llinks{
+  margin-left:32em;
+  padding-right: 15px;
+  font-family: "Merienda"
+}
+
+#Lsocial{
+  display: block;
+  /* margin-left: 30em; */
+  text-decoration:none;
+
+}
+.twit {
+    width: 3em;
+    border-radius: 25px;
+}
+
+.fb{
+    width: 3em;
+    border-radius: 25px;
+}
+
+.insta{
+    width: 3em;
+    border-radius: 25px;
+}
+
