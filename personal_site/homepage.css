@@ -149,7 +149,6 @@ nav a:hover {
 
 h1{
   font-size: 50px;
-  margin-bottom: -5;
 }
 
 h1, p{
@@ -288,7 +287,7 @@ footer h3{
 footer a{
   grid-column: 1/7;
   text-decoration: none;
-  padding-bottom: -30px;
+  /* padding-bottom: -30px; */
   padding: 5px;
   color:#18314F;
   padding: 15px;
@@ -512,7 +511,7 @@ footer a{
 #Lfooter a{
   grid-column: 1/7;
   text-decoration: none;
-  padding-bottom: -30px;
+  /* padding-bottom: -30px; */
   padding: 5px;
   color:#662727;
   padding: 15px;
